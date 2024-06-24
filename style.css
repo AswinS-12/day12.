@@ -1,0 +1,293 @@
+* {
+  margin: 0 ;
+  top: 0;
+  margin-top: 0;
+}
+body {
+  background-color: #040404;
+  color: white;
+}
+#navbar {
+  position: fixed;
+  width: 100%;
+}
+ul {
+  display: flex;
+ width: 50%;
+  margin-left: 50%;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 2%;
+}
+#welcome-section {
+  background-image: url("https://i.imgur.com/ZHtQ2fz.jpg");
+  background-size: cover;
+  margin-bottom: 0;
+  height: 100vh;
+}
+.welcome {
+  padding-top: 30vh;
+  
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 5px;
+}
+a:link {
+  color: white;
+}
+a:hover {
+  border-bottom: 5px solid #fb5c08;
+}
+a:active {
+  color: #fb5c08;
+  border-bottom: 5px solid #fb5c08;
+}
+header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  border-bottom: 5px solid #fb5c08;
+  padding: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 30px;
+  
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 6px;
+}
+.project-tile {
+  background-color: gray;
+}
+.some-space {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.major-space {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+.page-break {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.empty-gauge {
+  margin-left: 15%;
+  width: 70%;
+  
+  height: 20px;
+  background-color:white;
+}
+.gauge-label {
+  color: #fb5c08;
+}
+.gauge {
+  height: inherit;
+  background-color: #fb5c08;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 35%;
+  border-radius: 50%;
+}
+.fa-github {
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  background: #fb5c08;
+  
+}
+.fa-facebook {
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  background: #fb5c08;
+  margin-left: 20px;
+}
+.fa-twitter {
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  background: #fb5c08;
+  margin-left: 20px;
+}
+.fa-phone {
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  background: #fb5c08;
+  margin-left: 20px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 22vw;
+  max-width: 22vw;
+  padding: 0 10px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.project-tile {
+  background-color: gray; 
+}
+#contact-me {
+  text-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 45vw;
+    max-width:45vw;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.page-break {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.empty-gauge {
+  margin-left: 15%;
+  width: 70%;
+  
+  height: 20px;
+  background-color:white;
+}
+.gauge-label {
+  color: #fb5c08;
+}
+.gauge {
+  height: inherit;
+  background-color: #fb5c08;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 35%;
+  border-radius: 50%;
+}
+.fa-github {
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  background: #fb5c08;
+  
+}
+.fa-facebook {
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  background: #fb5c08;
+  margin-left: 20px;
+}
+.fa-twitter {
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  background: #fb5c08;
+  margin-left: 20px;
+}
+.fa-phone {
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  background: #fb5c08;
+  margin-left: 20px;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+  header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  border-bottom: 3px solid #fb5c08;
+  padding: 10px;
+  margin-left: 5vw;
+    margin-right: 5vw;
+  margin-bottom: 30px;
+}
+  .page-break {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.empty-gauge {
+  margin-left: 15%;
+  width: 70%;
+  
+  height: 20px;
+  background-color:white;
+}
+.gauge-label {
+  color: #fb5c08;
+}
+.gauge {
+  height: inherit;
+  background-color: #fb5c08;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 10vw;
+  border-radius: 50%;
+}
+.fa-github {
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  background: #fb5c08;
+  
+}
+.fa-facebook {
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  background: #fb5c08;
+  margin-left: 20px;
+}
+.fa-twitter {
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  background: #fb5c08;
+  margin-left: 20px;
+}
+.fa-phone {
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  background: #fb5c08;
+  margin-left: 20px;
+}
